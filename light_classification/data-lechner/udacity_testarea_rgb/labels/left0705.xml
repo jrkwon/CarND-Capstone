@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>udacity_testarea_rgb</folder>
+	<filename>left0705.jpg</filename>
+	<path>E:\projects\python\Traffic-Light-Classification\data\udacity_testarea_rgb\left0705.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1368</width>
+		<height>1096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Red</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>718</xmin>
+			<ymin>397</ymin>
+			<xmax>756</xmax>
+			<ymax>494</ymax>
+		</bndbox>
+	</object>
+</annotation>
