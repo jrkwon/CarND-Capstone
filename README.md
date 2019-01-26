@@ -100,8 +100,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 Now, it is time to build a new Docker image that has the required software packages.
 
 ```
-docker build . -t capstone_with_cuda9
+sudo docker build . -t capstone_with_cuda9
 ```
+
+Note that sudo is required due to a file under the folder, `models/research/bin`.
 
 ### Training
 
