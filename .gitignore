@@ -1,0 +1,14 @@
+*.py[cod]
+
+build
+devel
+
+profile.tmp
+
+*.bag
+
+model.ckpt.data-*
+model.ckpt-*
+events.out.tfevents.*
+
+pre-trained-model/ssd_*
